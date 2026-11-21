@@ -4,3 +4,6 @@ table { width: 90%; max-width: 640px; margin: 2rem auto; border-collapse: collap
 th, td { padding: .7rem; text-align: center; border-bottom: 1px solid #334155; }
 tbody tr:first-child { background: #f77f0033; font-weight: bold; }
 #leader { text-align: center; font-size: 1.2rem; }
+tbody tr { transition: background .2s; }
+tbody tr:hover { background: #009e6033; }
+h1 { letter-spacing: 2px; text-transform: uppercase; }
